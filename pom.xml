@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.endeavourhealth</groupId>
+    <artifactId>toolkit</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <eds-core.version>1.247-SNAPSHOT</eds-core.version>
+        <crypto-lib.version>0.9.7</crypto-lib.version>
+    </properties>
+
+    
+</project>
