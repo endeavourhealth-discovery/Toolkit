@@ -137,8 +137,7 @@ public class Main {
 
         List<PatientPseudoDetails> patients = new ArrayList<>();
 
-        String sql = String.format("SELECT patient_id, nhs_number, date_of_birth FROM link_distributor_populator WHERE done = 0 limit %d",
-                batchSize);
+        String sql = "SELECT patient_id, nhs_number, date_of_birth FROM link_distributor_populator WHERE done = 0 limit 1000";
 
         try {
             ResultSet rs = statement.executeQuery(sql);
